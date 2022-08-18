@@ -1,6 +1,12 @@
 package com.bah.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CUSTOMERS")
 public class Customer {
+/*
 	private String name, pass, email;
 	private int id;
 	
@@ -43,5 +49,5 @@ public class Customer {
 		this.pass = pass;
 		this.email = email;
 	}
-
+*/
 }
